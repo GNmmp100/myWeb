@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HomePage</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+         body{
+         padding: 0;
+         background-color: mediumpurple;
+         background-image: url('Images/newBg.jpg');
+         }
+         .navbar {
+         overflow: hidden;
+         background-color: #333;
+         font-family: Arial, Helvetica, sans-serif;
+         }
+         .navbar a {
+         float: left;
+         font-size: 16px;
+         color: white;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         }
+         .dropdown {
+         float: left;
+         overflow: hidden;
+         }
+         .dropdown .dropbtn {
+         font-size: 16px;    
+         border: none;
+         outline: none;
+         color: white;
+         padding: 14px 16px;
+         background-color: inherit;
+         font-family: inherit;
+         margin: 0;
+         }
+         .navbar a:hover, .dropdown:hover .dropbtn {
+         background-color: white;
+         color: #333;
+         
+         }
+         .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f9f9f9;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         }
+         .dropdown-content a {
+         float: none;
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         text-align: left;
+         }
+         .dropdown-content a:hover {
+         background-color: #333;
+         color: white;
+         border: black 3px solid;
+         }
+         .dropdown:hover .dropdown-content {
+         display: block;
+         }
+         .logo
+         {
+         width: 150px;
+         height: auto;
+         }
+         .header
+         {
+         text-align: center;
+         size: 100px;
+         font-family: textFont;
+         padding-left: 550px;
+         }
+         .headerSF
+         {
+         text-align: center;
+         size: 100px;
+         font-family: textFont;
+         padding-left: 450px;
+         }
+         .body1
+         {
+         width: 450px;
+         height: auto;  
+         text-align: center;
+         background-color: #E0C2F6;
+         font-family: textFont;
+         box-shadow: 20px 20px 36px 20px rgba(0,0,0,0.4);
+         border: black 2px solid;
+         color: rgba(0,0,0,0.7);
+         }
+         .moveBody
+         {
+         padding-left: 500px;
+         padding-top: 150px;
+         }
+         @font-face {
+         font-family: textFont;
+         src: url(Fonts/8bitoperator.ttf);
+         font-weight: normal;
+         font-style: normal;
+         }
+         
+        #purpleDivHead
+        {
+         background-color: mediumpurple;
+         min-height: 100%;
+         min-width: 100%;
+         margin: 0px;
+
+        }
+        .bodySF
+        {
+         width: 10px;
+         height: auto;
+         
+        }
+        #tableEdits
+        {
+         background-color: mediumpurple;
+         text-align: center;
+         font-family: textFont;
+         margin-left: 550px ;
+         width: 350px;
+         height: auto;
+         border: 3px groove;
+        }
+        #conceptBody
+        {
+         background-color: #E0C2F6;
+         text-align: center;
+         font-family: monospace,sans-serif,cloudflare;
+         margin-left: 420px ;
+         width: 600px;
+         height: auto;
+         border: 3px groove;
+        }
+        #photoEdit
+        {   
+         width: 450px;
+         height: auto;
+         margin-left: 500px;
+                }
+
+         #videoEdits
+         {
+            margin-left: 450px;
+         }
+
+      </style>
+   </head>
+   <body>
+   
+      <div id="purpleDivHead">
+         <table>
+            <tr>
+               <th><img src="Images/logo.png" alt="logo" class="logo" >
+               </th>
+               <th>
+                  <h1 class="headerSF"><u>Short Film</u></h1>
+               </th>
+            </tr>
+         </table>
+      </div>
+      <div class="navbar">
+         <a href="index.html">Home</a>
+         <div class="dropdown">
+            <button class="dropbtn">Projects 
+            <i class="fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+               <a href="emoji.html">Emoji</a>
+               <a href="shortAnamation.html">Short animation</a>
+               <a href="filmProject.html">Short Film</a>
+            </div>
+         </div>
+         <a href="aboutMe.html">About Me</a>
+         <a href="contactMe.html">Contact me</a>
+      </div>
+      <div>
+         <table>
+            <tr id="purpleDivHead">
+               
+                 <h2 id="tableEdits">The Concept</h2>
+               
+            </tr>
+            <tr>
+                  <h3 id="conceptBody">Well, when this project was given to me I won't lie I panicked. I have never done any filming besides the few funny things I'd film my girlfriend doing. This being said, when I heard that I needed to film a whole 30 second to one minute presentation I felt way out of my league. I was also privaliged to work with Nora Sika during this project and she was the one who actually came up with the concept for the project. 
+                  </h3>
+                  <p><br></p>
+            </tr>
+            <tr>
+               <h2 id="tableEdits">StoryBoard</h2>
+            </tr>
+            <tr>
+              <img src="images/storyboard.jpg" id="photoEdit">
+              <p><br></p>
+            </tr>
+            <tr>
+               <h2 id="tableEdits">Recording</h2>
+            </tr>
+            <tr>
+              <img id="photoEdit" src="Images/recordedVids.gif"alt="recorded videos">
+            </tr>
+            <tr>
+               <h3 id="conceptBody">Recording actually took longer than I thought it would and I ended up with <b>WAY</b> more videos than were used.</h3>
+              <p> <br></p>
+            </tr>
+            <tr>
+               <h2 id="tableEdits">Final Video</h2>
+            </tr>
+            <tr><p id="videoEdits">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/wxrnSm3z_JI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </p>
+            </tr>
+         </table>
+     
+   </div>
+   </body>
+</html>
